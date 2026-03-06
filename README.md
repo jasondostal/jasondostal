@@ -25,5 +25,5 @@ on a full DB-driven headless CMS. Another Cairn build.
 On [Printables](https://www.printables.com/@LayerusRex) as LayerusRex — free and open,
 everything I design goes back to the community.
 
-Also: my outdoor BirdNET-Pi runs on repurposed landscape wire and a correctly-sized
-buck converter (the second one).
+Also: my outdoor [BirdNET-Pi runs on repurposed landscape wire and a correctly-sized
+buck converter](https://github.com/Nachtzuster/BirdNET-Pi/discussions/309) (the second one).
