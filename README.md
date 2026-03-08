@@ -14,8 +14,8 @@ providers, DNS, HTTP/SOCKS5/Shadowsocks proxies, Home Assistant integration.
 
 **[Scoreline](https://github.com/jasondostal/scoreline)** — live sports win probability
 on WLED-controlled LED strips. 16 leagues, WebSocket real-time, native HA integration.
-One of 4 WLED instances I run — this one lives in a custom dig-quad enclosure with
-on-demand fans and a Shelly for remote power and heat monitoring.
+One of 4 WLED instances I run — this instance lives in a custom enclosure on a Dig-Quad with
+on-demand fans and a Shelly1PM for remote power and heat monitoring.
 
 **[Curiocraft Prints](https://curiocraftprints.com)** — Site for my 3D printing side business.   Originally static JS/CSV, now 100% headless api driven CMS (55 REST endpoints) with Google Analytics, tokenized user signups, agentic inventory management and a full CRUD admin backend w/ logging and OIDC integration. Another Cairn build.
 
@@ -24,4 +24,4 @@ on-demand fans and a Shelly for remote power and heat monitoring.
 On [Printables](https://www.printables.com/@LayerusRex) as LayerusRex — free and open,
 everything I design goes back to the community.
 
-Also enjoy DIY IoT / hardware projects - ESPHome (irrigation controllers, RFID repeaters), RetroPie, WLED (custom designed/fabricated/installed ~1,000 pixel permanent home holiday lighting, 3 or 4 other smaller installs) and [my BirdNET-Pi setup](https://github.com/Nachtzuster/BirdNET-Pi/discussions/309).
+Also enjoy DIY IoT / hardware projects - ESPHome (irrigation controllers, RFID repeaters), RetroPie, WLED (custom designed/fabricated/installed ~1,000 pixel permanent home holiday lighting) and [my BirdNET-Pi setup](https://github.com/Nachtzuster/BirdNET-Pi/discussions/309).
