@@ -25,4 +25,4 @@ on a full DB-driven headless CMS. Another Cairn build.
 On [Printables](https://www.printables.com/@LayerusRex) as LayerusRex — free and open,
 everything I design goes back to the community.
 
-Also enjoy DIY IoT / hardware projects - ESPHome, RetroPie, WLEd and [my BirdNET-Pi setup](https://github.com/Nachtzuster/BirdNET-Pi/discussions/309).
+Also enjoy DIY IoT / hardware projects - ESPHome (irrigation controllers, RFID repeaters), RetroPie, WLED (custom designed/fabricated/installed ~1,000 pixel permanent home holiday lighting, 3 or 4 other smaller installs) and [my BirdNET-Pi setup](https://github.com/Nachtzuster/BirdNET-Pi/discussions/309).
