@@ -19,6 +19,11 @@ on-demand fans and a Shelly1PM for remote power and heat monitoring.
 
 **[Curiocraft Prints](https://curiocraftprints.com)** — Site for my 3D printing side business.   Originally static JS/CSV, now 100% headless api driven CMS (55 REST endpoints) with Google Analytics, tokenized user signups, agentic inventory management and a full CRUD admin backend w/ logging and OIDC integration. Another Cairn build.
 
+**[Homelab Guide](https://github.com/jasondostal/homelab-guide)** — The Hitchhiker's Guide
+to a Safe and Sane Full-Stack Homelab. Decision framework and reference implementation for
+Docker-based homelab with AI-assisted dev focus. Covers everything from VLANs and defense
+in depth to backups, certs, and the fun stuff.
+
 ---
 
 On [Printables](https://www.printables.com/@LayerusRex) as LayerusRex — free and open,
