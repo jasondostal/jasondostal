@@ -17,8 +17,7 @@ on WLED-controlled LED strips. 16 leagues, WebSocket real-time, native HA integr
 One of 4 WLED instances I run — this one lives in a custom dig-quad enclosure with
 on-demand fans and a Shelly for remote power and heat monitoring.
 
-**[Curiocraft Prints](https://curiocraftprints.com)** — 3D printing side business built
-on a full DB-driven headless CMS. Another Cairn build.
+**[Curiocraft Prints](https://curiocraftprints.com)** — Site for my 3D printing side business.   Originally static JS/CSV, now 100% headless api driven CMS (55 REST endpoints) with Google Analytics, tokenized user signups, agentic inventory management and a full CRUD admin backend w/ logging and OIDC integration. Another Cairn build.
 
 ---
 
