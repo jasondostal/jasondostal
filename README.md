@@ -2,11 +2,11 @@
 
 I build AI-native development infrastructure and the things that prove it works.
 
+The projects that came out of working that way:
+
 **[Cairn MCP](https://github.com/jasondostal/cairn-mcp)** — semantic memory and work
 tracking for AI agents. Persistent context, session continuity, work item hierarchy.
 Built so my AI collaborators can actually remember what we're doing.
-
-The projects that came out of working that way:
 
 **[DiskScope](https://github.com/jasondostal/diskscope)** — a native macOS WinDirStat, written
 in Swift. Renders disk usage as a fast, live, cushioned treemap, and comes with a very fun,
