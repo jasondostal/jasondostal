@@ -8,6 +8,10 @@ Built so my AI collaborators can actually remember what we're doing.
 
 The projects that came out of working that way:
 
+**[DiskScope](https://github.com/jasondostal/diskscope)** — a native macOS WinDirStat, written
+in Swift. Renders disk usage as a fast, live, cushioned treemap, and comes with a very fun,
+full-featured TUI version of the app. File ops right from the UI — delete, open in Finder, and more.
+
 **[TunnelVision](https://github.com/jasondostal/tunnelvision)** — Docker container that
 manages your VPN tunnel end-to-end. WireGuard, OpenVPN, nftables killswitch, 25 native
 providers, DNS, HTTP/SOCKS5/Shadowsocks proxies, Home Assistant integration.
