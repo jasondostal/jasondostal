@@ -47,6 +47,12 @@ pipeline (Build → Lint → Scan → Deploy × 4 envs). Consumes the platform m
 Bicep reference modules: Service Bus, Event Grid, API Management, Cosmos DB, Storage,
 Functions, and full VNet + private DNS networking.
 
+**[Azure Project Starter](https://github.com/jasondostal/azure-project-starter)** —
+cookiecutter/cruft template. One command generates a new .NET project repo with ADO
+pipeline, Bicep IAC consuming the platform modules, team .editorconfig, and onboarding
+docs. Toggle SQL, Foundry, and APIM at generation time. Supports `cruft update` for
+propagating template changes into existing projects.
+
 ---
 
 On [Printables](https://www.printables.com/@LayerusRex) as LayerusRex — free and open,
