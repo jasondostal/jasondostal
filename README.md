@@ -8,6 +8,25 @@ The projects that came out of working that way:
 tracking for AI agents. Persistent context, session continuity, work item hierarchy.
 Built so my AI collaborators can actually remember what we're doing.
 
+**[foundry-agents-poc](https://github.com/jasondostal/foundry-agents-poc)** — reference
+implementation for standing up AI agents on Azure AI Foundry. Four agents (policy KB,
+code interpreter, all-in-one, assistant) surfaced through a SvelteKit + Node app on
+Azure App Service — authenticated entirely by managed identity, no API keys.
+
+**[Azure IAC Reference](https://github.com/jasondostal/azure-iac-reference)** — full-stack
+Bicep IAC + Azure DevOps CI/CD pipeline for deploying a .NET web app to Azure across
+4 environments. Consumes modules from the [platform repo](https://github.com/jasondostal/azure-platform-iac)
+and includes DDL-managed SQL schema promotion, private endpoints, and a 7-stage pipeline
+(Build → Lint → Scan → Deploy×4).
+
+**[Azure IAC Patterns](https://github.com/jasondostal/azure-iac-patterns)** — standalone
+Bicep reference modules for Azure services: Service Bus, Event Grid, API Management,
+Cosmos DB, Storage, Functions, and full VNet + DNS networking.
+
+**Azure IAC Platform** — [shared Bicep platform modules](https://github.com/jasondostal/azure-platform-iac)
+(compute, data, messaging, networking, security, integration) designed for app repos to
+consume via module references. The single source of truth — patch once, all repos inherit.
+
 **[DiskScope](https://github.com/jasondostal/diskscope)** — a native macOS WinDirStat, written
 in Swift. Renders disk usage as a fast, live, cushioned treemap, and comes with a very fun,
 full-featured TUI version of the app. File ops right from the UI — delete, open in Finder, and more.
