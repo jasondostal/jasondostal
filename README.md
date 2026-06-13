@@ -35,23 +35,29 @@ authenticated entirely by managed identity. Reference for voice + text conversat
 agents grounded on a knowledge base.
 
 **[Azure IAC Platform](https://github.com/jasondostal/azure-platform-iac)** — shared Bicep
-platform modules (compute, data, messaging, networking, security, integration). The single
-source of truth for Azure infrastructure — app repos consume these via module references.
-Patch once, all repos inherit.
+platform modules (compute, data, messaging, networking, security, integration, identity, AI)
++ shared ADO pipeline templates (build-dotnet, build-python, build-go, build-node, security
+gates, per-environment deploy) + one-command subscription bootstrap. The single source of
+truth for Azure infrastructure — app repos consume modules and pipeline templates via
+references. Patch once, every team inherits.
 
-**[Azure IAC Reference](https://github.com/jasondostal/azure-iac-reference)** — .NET 9 web
-app with Azure SQL, DDL-managed schema promotion, private endpoints, and a 7-stage ADO
-pipeline (Build → Lint → Scan → Deploy × 4 envs). Consumes the platform modules above.
+**[Azure IAC Reference](https://github.com/jasondostal/azure-iac-reference)** — .NET web
+app with Azure SQL, DDL-managed schema promotion, private endpoints, APIM with multi-auth
+(Entra ID + B2C + client credentials), Foundry AI agent infra, and a 7-stage ADO pipeline
+(Build → Lint → Scan → Deploy × 4 envs). Exhaustive demo of every platform module wired
+together.
 
 **[Azure IAC Patterns](https://github.com/jasondostal/azure-iac-patterns)** — standalone
-Bicep reference modules: Service Bus, Event Grid, API Management, Cosmos DB, Storage,
-Functions, and full VNet + private DNS networking.
+patterns catalog: full identity + APIM multi-auth, Foundry AI agent stack (Hub + Project +
+AI Search + models), Service Bus, Event Grid, Cosmos DB, Storage, Functions, and complete
+VNet + private DNS networking.
 
 **[Azure Project Starter](https://github.com/jasondostal/azure-project-starter)** —
-cookiecutter/cruft template. One command generates a new .NET project repo with ADO
-pipeline, Bicep IAC consuming the platform modules, team .editorconfig, and onboarding
-docs. Toggle SQL, Foundry, and APIM at generation time. Supports `cruft update` for
-propagating template changes into existing projects.
+cookiecutter/cruft template with 6 archetypes (dotnet-api, dotnet-web, python-function,
+go-web, go-desktop, node-agent). One command → full repo with ADO pipeline consuming
+platform templates, Bicep IaC, team .editorconfig, and onboarding docs. Toggle SQL,
+Foundry, and APIM at generation time. `cruft update` propagates template changes into
+existing projects.
 
 ---
 
