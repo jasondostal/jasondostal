@@ -29,12 +29,6 @@ Docker-based homelab with AI-assisted dev focus. Covers everything from VLANs an
 in depth to backups, certs, and the fun stuff.
 
 ---
-
-## Azure IAC Reference Implementations
-
-Infrastructure as Code patterns for the Microsoft ecosystem — Bicep modules, Azure
-devOps pipelines, and platform engineering templates built from real Fox CU patterns.
-
 **[Foundry Agents PoC](https://github.com/jasondostal/foundry-agents-poc)** — AI agents on
 Azure AI Foundry. Four agents surfaced through SvelteKit + Node on App Service,
 authenticated entirely by managed identity. Reference for voice + text conversational
