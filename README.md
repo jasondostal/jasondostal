@@ -4,9 +4,10 @@ I build AI-native development infrastructure and the things that prove it works.
 
 The projects that came out of working that way:
 
-**[Cairn MCP](https://github.com/jasondostal/cairn-mcp)** — semantic memory and work
-tracking for AI agents. Persistent context, session continuity, work item hierarchy.
-Built so my AI collaborators can actually remember what we're doing.
+**[rill](https://github.com/jasondostal/rill)** — a tiny stream, flowing memory. Fast,
+MCP-native memory server for AI agents: one database for documents, graph relationships,
+and vector search, with a dark-first web UI, a CLI, and a macOS menu-bar sidecar. The Go
+successor to Cairn — same idea, leaner and faster.
 
 **[DiskScope](https://github.com/jasondostal/diskscope)** — a native macOS WinDirStat, written
 in Swift. Renders disk usage as a fast, live, cushioned treemap, and comes with a very fun,
